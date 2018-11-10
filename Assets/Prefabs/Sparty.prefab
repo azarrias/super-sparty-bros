@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 50325929920006434}
   - component: {fileID: 61500040927572960}
   - component: {fileID: 82443065565522338}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sparty
   m_TagString: Player
   m_Icon: {fileID: 0}
