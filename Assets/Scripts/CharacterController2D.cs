@@ -201,6 +201,7 @@ public class CharacterController2D : MonoBehaviour {
  	void FreezeMotion() {
 		playerCanMove = false;
 		_rigidbody.isKinematic = true;
+        _rigidbody.simulated = false;
 	}
 
 	// do what needs to be done to unfreeze the player
