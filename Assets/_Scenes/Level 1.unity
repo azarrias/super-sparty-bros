@@ -2954,6 +2954,7 @@ GameObject:
   - component: {fileID: 1521591041}
   - component: {fileID: 1521591044}
   - component: {fileID: 1521591043}
+  - component: {fileID: 1521591042}
   m_Layer: 0
   m_Name: Background Camera
   m_TagString: Untagged
@@ -2974,6 +2975,18 @@ Transform:
   m_Father: {fileID: 748620263}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1521591042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1521591040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: d982e879ff67b4d3fb6522d08c3cd5af, type: 2}
 --- !u!124 &1521591043
 Behaviour:
   m_ObjectHideFlags: 0
