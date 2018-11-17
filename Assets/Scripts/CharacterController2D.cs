@@ -208,6 +208,7 @@ public class CharacterController2D : MonoBehaviour {
 	void UnFreezeMotion() {
 		playerCanMove = true;
 		_rigidbody.isKinematic = false;
+        _rigidbody.simulated = true;
 	}
 
 	// play sound through the audiosource on the gameobject
