@@ -1368,9 +1368,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Created by:
+  m_Text: 'Created by: Adolfo Zarrias
 
-    Brian Winn and Greg Kozma
+    Original content by: Brian Winn and Greg Kozma
 
 '
 --- !u!222 &1114769439
